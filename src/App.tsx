@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from './App.module.less';
-
+import { Outlet } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <div className={styles.hello}>hello</div>
+      <Outlet />
     </div>
   );
 }
