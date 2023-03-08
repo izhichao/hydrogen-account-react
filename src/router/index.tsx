@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from '../App';
-import IndexView from '../views/Common/IndexView';
-import ShowView from '../views/ShowView';
-import MyView from '../views/MyView';
+import IndexView from '../pages/Common/IndexView';
+import ShowView from '../pages/ShowView';
+import MyView from '../pages/MyView';
 
 const BaseRoute = () => {
   return (
