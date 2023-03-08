@@ -1,0 +1,38 @@
+@import '../../style/variables.less';
+.docker {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: @themeLightBgColor;
+  border-top: 0.5px solid @borderColor;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  &__item {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    &--active {
+      i,
+      p {
+        color: @themeColor;
+      }
+    }
+  }
+}
